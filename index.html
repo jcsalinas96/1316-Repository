@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Jennifer's Project</title>
-    </head>
-    <body>
-        <h1>My First Heading</h1>
-        <p>My first paragraph.</p>
-    </body>
+<head>
+<meta charset="utf-8">
+<title>Jennifer's Project</title>
+<style>
+	*{box-sizing: border-box;}
+	#container{
+		width:800px; background-color: darkgoldenrod; height: 600px; margin:0 auto;}
+	p{color:white;
+	}
+	.floatLeft{
+		float:left;
+		width:250px;
+		background-color: dodgerblue
+	}
+	footer{
+		clear: both;
+	}
+	#main{
+		margin-left: 20px;
+		background-color: darkgreen;
+		padding-left: 20px
+	}
+	</style>
+</head>
+
+<body>
+	<div id="container" >
+	<header><h1>Hello Autumn</h1></header>
+	<nav class="floatLeft"><p>This is my navigation space</p></nav>
+	<main id="main" class="floatLeft"><img src="images/autumn-leaves.jpg" style="width: 300px;" alt="Leaves changing colors"/></main>
+	<footer><p>Copyright Jennifer Salinas 2025</p></footer>
+		
+		
+	</div>	
+		
+</body>
 </html>
