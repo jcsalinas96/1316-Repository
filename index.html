@@ -1,36 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <title>Jennifer's Project</title>
 <style>
 	*{box-sizing: border-box;}
-	#container{
-		width:800px; background-color: darkgoldenrod; height: 600px; margin:0 auto;}
-	p{color:white;
-	}
-	.floatLeft{
-		float:left;
-		width:250px;
-		background-color: dodgerblue
-	}
-	footer{
-		clear: both;
-	}
-	#main{
-		margin-left: 20px;
-		background-color: darkgreen;
-		padding-left: 20px
-	}
-	</style>
+	
+	#container
+		{width:800px; background-color:rgba(212,157,21,0.90); height:600px; margin:0 auto;}
+	
+	p
+		{color:rgba(0,0,0,1.00);}
+	
+	.floatLeft
+		{float:left; width:250px; background-color:rgba(55,166,200,1.00)}
+	
+	footer
+		{clear: both;}
+	
+	#main
+		{margin-left: 20px; background-color: darkgreen; padding-left: 20px;}
+	
+</style>
+	
 </head>
 
 <body>
 	<div id="container" >
-	<header><h1>Hello Autumn</h1></header>
-	<nav class="floatLeft"><p>This is my navigation space</p></nav>
-	<main id="main" class="floatLeft"><img src="images/autumn-leaves.jpg" style="width: 300px;" alt="Leaves changing colors"/></main>
-	<footer><p>Copyright Jennifer Salinas 2025</p></footer>
+	
+	<header>
+		<h1 style="font-size:300%; font-family:verdana; text-align:center;">
+			Hello Autumn <img src="images/porcupine.jpg" style="width:100px;" alt="Porcupine"> 
+		</h1>
+	</header>
+		
+	<nav class="floatLeft">
+		<h2 style="font-size:140%; font-family:courier; text-align:center;">
+			<b>My Favorite Season</b><img src="images/pumpkin.jpg" style="width:60px; vertical-align:bottom; margin-left:5px;" alt="Pumpkin">
+			<hr>
+		</h2>
+		
+		<h3 title="Why I Love Autumn" style="font-family:Georgia; font-size:95%">
+			Nothing's Better Than Autumn
+		</h3>
+		<p style="font-size:115%; text-align:justify;">Autumn is my <i>favorite season</i> of the year. I just love seeing the leaves change colors, and feeling the <em>cool crisp chill</em> in the air.</p>
+	</nav>
+		
+	<main id="main" class="floatLeft"><img src="images/autumn-leaves.jpg" style="width: 375px;" alt="Leaves changing colors"/></main>
+		
+	<footer>
+		<p style="text-align: right">&copy;2025 Jennifer Salinas </p>
+	</footer>
 		
 		
 	</div>	
